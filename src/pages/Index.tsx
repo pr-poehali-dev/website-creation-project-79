@@ -5,13 +5,13 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <header className="bg-secondary py-4 px-6 fixed w-full top-0 z-50 shadow-md">
+      <header className="bg-secondary py-2 px-6 fixed w-full top-0 z-50 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-3">
             <img 
               src="https://cdn.poehali.dev/files/bb9d6a2b-316f-4563-a3e5-877201ea1731.png" 
               alt="Белковый продукт" 
-              className="h-12"
+              className="h-16 md:h-20 py-1"
             />
           </div>
           <nav className="hidden md:flex gap-8 text-white font-montserrat">
