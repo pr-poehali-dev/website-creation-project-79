@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { useState } from "react";
 
 const Index = () => {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
   return (
     <div className="min-h-screen">
       <header className="bg-secondary py-2 px-6 fixed w-full top-0 z-50 shadow-md">
@@ -20,7 +23,48 @@ const Index = () => {
             <a href="#production" className="hover:text-primary transition-colors">Продукция</a>
             <a href="#contacts" className="hover:text-primary transition-colors">Контакты</a>
           </nav>
+          <button 
+            className="md:hidden text-white"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label="Меню"
+          >
+            <Icon name={mobileMenuOpen ? "X" : "Menu"} size={28} />
+          </button>
         </div>
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-secondary border-t border-white/10">
+            <nav className="container mx-auto flex flex-col py-4">
+              <a 
+                href="#main" 
+                className="px-6 py-3 text-white hover:bg-primary/20 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Главная
+              </a>
+              <a 
+                href="#about" 
+                className="px-6 py-3 text-white hover:bg-primary/20 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                О компании
+              </a>
+              <a 
+                href="#production" 
+                className="px-6 py-3 text-white hover:bg-primary/20 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Продукция
+              </a>
+              <a 
+                href="#contacts" 
+                className="px-6 py-3 text-white hover:bg-primary/20 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Контакты
+              </a>
+            </nav>
+          </div>
+        )}
       </header>
 
       <section 
