@@ -36,7 +36,7 @@ const Index = () => {
               Мясокостная мука — незаменимый элемент питания животных
             </h1>
             <p className="text-lg text-white/90 mb-8 leading-relaxed">
-              Мука мясокостная под торговой маркой «Белковый продукт» БП прокаливались к 2000 годам являются высококачественным сырьем для комбикормов.
+              ООО «Белковый продукт» с 2000 года производит высококачественную мясокостную муку — незаменимый белковый компонент для производства комбикормов и кормов для непродуктивных животных.
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
               Связаться с нами
@@ -56,7 +56,7 @@ const Index = () => {
               </div>
               <h3 className="text-xl font-semibold mb-4 font-montserrat">Высокое качество сырья</h3>
               <p className="text-muted-foreground">
-                Мы используем инновационное оборудование для контроля качества веществ на всех этапах производства.
+                Строгий отбор сырья и многоступенчатая система контроля качества гарантируют высокие показатели белка и усвояемости продукции.
               </p>
             </Card>
 
@@ -66,9 +66,9 @@ const Index = () => {
                   <Icon name="CheckCircle" className="text-primary" size={40} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4 font-montserrat">Контроль на всех этапах</h3>
+              <h3 className="text-xl font-semibold mb-4 font-montserrat">Полный контроль качества</h3>
               <p className="text-muted-foreground">
-                Ветеринарно-санитарная экспертиза, лабораторный контроль и сертификация качества на каждом этапе производства.
+                Собственная лаборатория проводит анализ каждой партии. Ветеринарно-санитарная экспертиза и сертификация на всех этапах.
               </p>
             </Card>
 
@@ -78,9 +78,9 @@ const Index = () => {
                   <Icon name="Settings" className="text-primary" size={40} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4 font-montserrat">Современные технологии</h3>
+              <h3 className="text-xl font-semibold mb-4 font-montserrat">Современное производство</h3>
               <p className="text-muted-foreground">
-                Инновационные методы обработки и переработки сырья с соблюдением всех стандартов безопасности и качества.
+                Европейское оборудование и передовые технологии термической обработки обеспечивают стабильное качество готовой продукции.
               </p>
             </Card>
           </div>
@@ -95,7 +95,7 @@ const Index = () => {
                 Технология производства
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Мы применяем инновационные технологии переработки, которые позволяют выпускать высококачественную кормовую муку. Современное оборудование обеспечивает полный контроль на всех этапах производства, от приемки сырья до фасовки готовой продукции.
+                Производство оснащено современным европейским оборудованием для переработки мясного сырья. Многоступенчатая термическая обработка при температуре до 133°C уничтожает патогенную микрофлору и обеспечивает биологическую безопасность продукции. Автоматизированная система контроля гарантирует стабильность характеристик на выходе.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
@@ -123,10 +123,56 @@ const Index = () => {
               <h2 className="text-4xl font-bold mb-6 font-montserrat text-secondary">
                 О компании
               </h2>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-4">
+                ООО «Белковый продукт» работает на рынке с 2000 года. Наше предприятие специализируется на глубокой переработке мясного сырья и производстве белковых кормовых компонентов.
+              </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                ООО «Белковый продукт» — мясной завод с опытом более 20 лет. Наша компания специализируется на производстве высококачественной белковой продукции для комбикормов. Мы обеспечиваем полный цикл производства: от закупки сырья до поставки готовой продукции покупателям.
+                Производственная мощность — до 330 тонн готовой продукции в месяц. Мы поставляем мясокостную муку ведущим комбикормовым заводам и производителям кормов для домашних животных по всей России.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="production" className="py-16 px-6 bg-white">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold mb-12 text-center font-montserrat text-secondary">Наша продукция</h2>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="rounded-lg overflow-hidden shadow-lg">
+              <img 
+                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/28585f9a-9e6d-4077-b8a5-1db997f6e098.jpg"
+                alt="Мясокостная мука"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold mb-4 font-montserrat text-secondary">Мясокостная мука</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+                Высокобелковый кормовой ингредиент для производства комбикормов и кормов для домашних животных. Содержание сырого протеина — не менее 50%, жира — не более 18%.
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle" className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <p className="text-muted-foreground">Соответствует ГОСТ 17536-82</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle" className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <p className="text-muted-foreground">Упаковка: биг-бэги по 500-1000 кг, мешки по 30-50 кг</p>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="CheckCircle" className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <p className="text-muted-foreground">Срок годности: 12 месяцев при соблюдении условий хранения</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="mt-12 rounded-lg overflow-hidden shadow-lg">
+            <img 
+              src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/bf6a1b03-ada0-4a47-8a1b-f98aabf223d4.jpg"
+              alt="Упаковка продукции"
+              className="w-full h-[400px] object-cover"
+            />
           </div>
         </div>
       </section>
