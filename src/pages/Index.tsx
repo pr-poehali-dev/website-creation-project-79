@@ -27,7 +27,7 @@ const Index = () => {
         id="main"
         className="relative pt-24 pb-16 px-6 bg-cover bg-center min-h-[600px] flex items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(44, 53, 68, 0.75), rgba(44, 53, 68, 0.75)), url('https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/d8cccd8d-849b-40a9-844b-7788bb57cee4.jpg')`,
+          backgroundImage: `linear-gradient(rgba(44, 53, 68, 0.75), rgba(44, 53, 68, 0.75)), url('https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/40dba8a3-7cec-4a79-942b-88e695efe371.jpg')`,
         }}
       >
         <div className="container mx-auto">
@@ -36,7 +36,7 @@ const Index = () => {
               Мясокостная мука — незаменимый элемент питания животных
             </h1>
             <p className="text-lg text-white/90 mb-8 leading-relaxed">
-              Нукс мясокастная пол торговем нароса «Белковый продукт» БП прокезавалисс к 2000 говем анйотея высокречестеенный сырaea для комцикормое.
+              Мука мясокостная под торговой маркой «Белковый продукт» БП прокаливались к 2000 годам являются высококачественным сырьем для комбикормов.
             </p>
             <Button size="lg" className="bg-primary hover:bg-primary/90 text-white px-8 py-6 text-lg">
               Связаться с нами
@@ -54,9 +54,9 @@ const Index = () => {
                   <Icon name="Package" className="text-primary" size={40} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4 font-montserrat">Высокое качество Снряэ</h3>
+              <h3 className="text-xl font-semibold mb-4 font-montserrat">Высокое качество сырья</h3>
               <p className="text-muted-foreground">
-                Мы испопнявии инненшитное осведемпое юунивачюосты сорея качота вешеств.
+                Мы используем инновационное оборудование для контроля качества веществ на всех этапах производства.
               </p>
             </Card>
 
@@ -66,9 +66,9 @@ const Index = () => {
                   <Icon name="CheckCircle" className="text-primary" size={40} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4 font-montserrat">Контроль на всех отапах</h3>
+              <h3 className="text-xl font-semibold mb-4 font-montserrat">Контроль на всех этапах</h3>
               <p className="text-muted-foreground">
-                Ветеринарна скриклентилис лараен-келоопеходенская ксштротивоская янснества.
+                Ветеринарно-санитарная экспертиза, лабораторный контроль и сертификация качества на каждом этапе производства.
               </p>
             </Card>
 
@@ -78,9 +78,9 @@ const Index = () => {
                   <Icon name="Settings" className="text-primary" size={40} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-4 font-montserrat">Современные теаполотии</h3>
+              <h3 className="text-xl font-semibold mb-4 font-montserrat">Современные технологии</h3>
               <p className="text-muted-foreground">
-                Укновершаям чнслоптпа косниензкиллямилия шлит иции рестоядив соглов.
+                Инновационные методы обработки и переработки сырья с соблюдением всех стандартов безопасности и качества.
               </p>
             </Card>
           </div>
@@ -95,12 +95,12 @@ const Index = () => {
                 Технология производства
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                Мы принемпом рневесаи уо, помекоко ноу, которoa поносот всупсткал-венчиавалосе кеполосские кэяке, коновсоптра-аре орасоны поынаобилания ніх по фрациои силсе атсоповошванис дваополеаилая напплосска єрол якаксзаое іног гоуо єаколаппрівея.
+                Мы применяем инновационные технологии переработки, которые позволяют выпускать высококачественную кормовую муку. Современное оборудование обеспечивает полный контроль на всех этапах производства, от приемки сырья до фасовки готовой продукции.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/fe839b07-be68-4848-9529-f961d2fe3093.jpg"
+                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/203e89cb-0cf3-49b3-b2ea-32065b4b6709.jpg"
                 alt="Технология производства"
                 className="w-full h-full object-cover"
               />
@@ -114,7 +114,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/39197b72-dac0-4806-9332-d58f839a9521.jpg"
+                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/1057eea6-bf6c-4dc8-a742-ad654aea433b.jpg"
                 alt="О компании"
                 className="w-full h-full object-cover"
               />
@@ -124,7 +124,7 @@ const Index = () => {
                 О компании
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                ООО «Белковый продукт» - мінний єриц іу єтмієт є 330 тов, созпак юонезслийоносії пошетличия белнее эа дпекаїсое, полоствое ючнпие э темкаеко-й дамо в джонда к х бліннкки поркнамокхім домніственй переврилоплакзскої нісомакотов.
+                ООО «Белковый продукт» — мясной завод с опытом более 20 лет. Наша компания специализируется на производстве высококачественной белковой продукции для комбикормов. Мы обеспечиваем полный цикл производства: от закупки сырья до поставки готовой продукции покупателям.
               </p>
             </div>
           </div>
