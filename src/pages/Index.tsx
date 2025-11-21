@@ -27,7 +27,7 @@ const Index = () => {
         id="main"
         className="relative pt-24 pb-16 px-6 bg-cover bg-center min-h-[600px] flex items-center"
         style={{
-          backgroundImage: `linear-gradient(rgba(44, 53, 68, 0.75), rgba(44, 53, 68, 0.75)), url('https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/40dba8a3-7cec-4a79-942b-88e695efe371.jpg')`,
+          backgroundImage: `linear-gradient(rgba(44, 53, 68, 0.75), rgba(44, 53, 68, 0.75)), url('https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/7f1f946b-30cb-44c8-b5a6-64412a3a9731.jpg')`,
         }}
       >
         <div className="container mx-auto">
@@ -100,7 +100,7 @@ const Index = () => {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img 
-                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/203e89cb-0cf3-49b3-b2ea-32065b4b6709.jpg"
+                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/dee30fbe-66fa-4c1b-91e4-1ee98bfc9e5f.jpg"
                 alt="Технология производства"
                 className="w-full h-full object-cover"
               />
@@ -114,7 +114,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="rounded-lg overflow-hidden shadow-lg order-2 md:order-1">
               <img 
-                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/1057eea6-bf6c-4dc8-a742-ad654aea433b.jpg"
+                src="https://cdn.poehali.dev/projects/2aa66e23-1238-4278-b50c-13e9ae5210a9/files/dd1557ae-e40d-4d6a-a863-c70ece05259f.jpg"
                 alt="О компании"
                 className="w-full h-full object-cover"
               />
